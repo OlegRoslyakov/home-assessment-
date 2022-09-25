@@ -1,3 +1,4 @@
+
 # Программа подсчета слов в файле
 import os
 
@@ -8,7 +9,7 @@ def global_words(Bayraktar):
     text = text.replace("\n", " ")
     text = text.replace(",", "").replace(".", "").replace("?", "").replace("!", "")
     text = text.lower()
-    words = {'Ukraine': 0, 'Bayraktar': 0, 'home': 0, 'hello': 0 }
+    words = {'bomb': 0, 'tb2': 0, 'shot': 0, 'may': 0 }
     for word in text.split():
         if word  in words: 
             words[word] += 1
